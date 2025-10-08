@@ -59,10 +59,16 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-end">
-        <button className="text-white font-semibold px-5 py-2 rounded-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] flex items-center gap-2">
-          <i className="fa-brands fa-github"></i>
-          Contribute
-        </button>
+        <a
+          href="https://github.com/ShamimWebDev"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="text-white font-semibold px-5 py-2 rounded-lg bg-gradient-to-r from-[#632EE3] to-[#9F62F2] flex items-center gap-2">
+            <i className="fa-brands fa-github"></i>
+            Contribute
+          </button>
+        </a>
       </div>
     </div>
   );
