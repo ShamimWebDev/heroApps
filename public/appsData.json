@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "image": "/demo-app (1).webp",
+    "title": "Forest: Focus for Productivity",
+    "companyName": "SeekrTech",
+    "description": "Stay focused and be present. Grow a virtual forest as you focus on your tasks.",
+    "size": 95,
+    "reviews": 1200000,
+    "ratingAvg": 4.9,
+    "downloads": 9000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 980000 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "/demo-app (2).webp",
+    "title": "FLIP – Focus Timer for Study",
+    "companyName": "Rinasoft Inc.",
+    "description": "A study timer designed to help you stay focused and track your progress.",
+    "size": 88,
+    "reviews": 850000,
+    "ratingAvg": 4.8,
+    "downloads": 7000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "/demo-app (3).webp",
+    "title": "Pomocat – Cute Pomodoro Timer",
+    "companyName": "Pomocat Studio",
+    "description": "A cute cat-themed pomodoro timer to boost your focus and reduce burnout.",
+    "size": 63,
+    "reviews": 340000,
+    "ratingAvg": 4.7,
+    "downloads": 4000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 246500 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "/demo-app (4).webp",
+    "title": "Time Planner: Schedule & Tasks",
+    "companyName": "TimeApp Studio",
+    "description": "Organize your time effectively with daily routines, reminders, and calendars.",
+    "size": 102,
+    "reviews": 600000,
+    "ratingAvg": 4.6,
+    "downloads": 5500000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 130000 },
+      { "name": "5 star", "count": 433000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "/demo-app (5).webp",
+    "title": "Alarmy – Alarm Clock & Sleep",
+    "companyName": "Delight Room Co.",
+    "description": "The world's most annoying alarm app that actually wakes you up on time.",
+    "size": 110,
+    "reviews": 1500000,
+    "ratingAvg": 4.8,
+    "downloads": 12000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1175000 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "/demo-app (6).webp",
+    "title": "Focus Plant: Pomodoro Forest",
+    "companyName": "SeekrTech",
+    "description": "Gamify your focus time! Grow and water cute plants while you stay productive.",
+    "size": 85,
+    "reviews": 560000,
+    "ratingAvg": 4.7,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 110000 },
+      { "name": "5 star", "count": 422000 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/m8CZdMQ/morning-habits-ui.jpg",
+    "title": "Morning Habits – Daily Routine",
+    "companyName": "MindGrow",
+    "description": "Build positive morning habits that set the tone for a productive day.",
+    "size": 70,
+    "reviews": 410000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 8000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 276000 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/bvm3k3f/smplan-ui.jpg",
+    "title": "SmPlan: To-Do List & Reminder",
+    "companyName": "SmartPlan Labs",
+    "description": "Keep track of your tasks, reminders, and daily goals in one simple app.",
+    "size": 78,
+    "reviews": 480000,
+    "ratingAvg": 4.6,
+    "downloads": 6200000,
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 17000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 330000 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/GpbZB9V/notion-ui.jpg",
+    "title": "Notion: Notes, Docs, Tasks",
+    "companyName": "Notion Labs Inc.",
+    "description": "All-in-one workspace for notes, docs, tasks, and projects.",
+    "size": 125,
+    "reviews": 2800000,
+    "ratingAvg": 4.8,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 35000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 2380000 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/S7K5hxr/ticktick-ui.jpg",
+    "title": "TickTick: To-Do & Calendar",
+    "companyName": "Appest Inc.",
+    "description": "Manage your tasks, schedule, and focus time seamlessly.",
+    "size": 98,
+    "reviews": 760000,
+    "ratingAvg": 4.7,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 574000 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/ZVXmZhK/focuskeeper-ui.jpg",
+    "title": "Focus Keeper – Time Management",
+    "companyName": "Pixen Studio",
+    "description": "Boost your productivity using the Pomodoro technique and stay motivated.",
+    "size": 72,
+    "reviews": 320000,
+    "ratingAvg": 4.5,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 90000 },
+      { "name": "5 star", "count": 200000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/BtSkwFD/habitica-ui.jpg",
+    "title": "Habitica – Gamify Your Tasks",
+    "companyName": "HabitRPG Inc.",
+    "description": "Turn your daily goals into an RPG game. Build habits and level up your avatar.",
+    "size": 130,
+    "reviews": 920000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 668000 }
+    ]
+  }
+]
