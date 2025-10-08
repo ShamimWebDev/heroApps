@@ -8,28 +8,21 @@ const HeroBanner = () => {
           We Build <span className="text-primary">Productive</span> Apps
         </h1>
         <p className="text-gray-500 mb-8">
-          At <span className="font-semibold">HERO.IO</span>, we craft innovative
-          apps designed to make everyday life simpler, smarter, and more
-          exciting.
+          At HERO.IO, we craft innovative apps designed to make everyday life
+          simpler, smarter, and more exciting.
           <br />
           Our goal is to turn your ideas into digital experiences that truly
           make an impact.
         </p>
 
         <div className="flex justify-center gap-4 mb-12">
-          <button className="btn btn-outline btn-primary">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
-              alt="Google Play"
-              className="h-10"
-            />
+          <button className="flex items-center gap-2 border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100 transition">
+            <img src="/google.PNG" alt="Google Play" className="h-6" />
+            <span className="font-medium text-gray-800">Google Play</span>
           </button>
-          <button className="btn btn-outline btn-primary">
-            <img
-              src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-              alt="App Store"
-              className="h-10"
-            />
+          <button className="flex items-center gap-2 border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100 transition">
+            <img src="/app.PNG" alt="App Store" className="h-6" />
+            <span className="font-medium text-gray-800">App Store</span>
           </button>
         </div>
 
@@ -37,7 +30,7 @@ const HeroBanner = () => {
           <img
             src="/hero.png"
             alt="Hero"
-            className="rounded-2xl shadow-lg w-full max-w-md"
+            className="rounded-2xl w-full max-w-lg"
           />
         </div>
       </div>
