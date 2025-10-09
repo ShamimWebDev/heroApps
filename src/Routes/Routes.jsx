@@ -3,7 +3,7 @@ import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
 import MainLayout from "../Layouts/MainLayout";
 import ErrorPage from "../Pages/ErrorPage";
-import Installation from "../Pages/Installation";
+import Installation from "../Pages/InstalledApps";
 import AppDetails from "../Pages/AppDetails";
 import ErrorApp from "../Pages/ErrorApp";
 

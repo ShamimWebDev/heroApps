@@ -33,11 +33,17 @@ const InstalledApps = () => {
 
   const handleUninstall = (id) => {
     setActionLoading(true);
+
     setTimeout(() => {
       removeFromApplist(id);
       setInstalledApps((prev) => prev.filter((app) => app.id !== id));
-      toast.success("App uninstalled successfully!");
-      setActionLoading(false);
+
+      setActionLoading(false); // hide overlay first
+
+      // small delay to ensure overlay is gone
+      setTimeout(() => {
+        toast.success("App uninstalled successfully!");
+      }, 50);
     }, 500);
   };
 
