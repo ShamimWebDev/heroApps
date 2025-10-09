@@ -1,6 +1,7 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
-//  9000000 to  9M
+//  9000000 to convert 9M
 const formatNumber = (num) => {
   if (num >= 1_000_000) return `${(num / 1_000_000).toFixed(0)}M`;
   if (num >= 1_000) return `${(num / 1_000).toFixed(0)}K`;
@@ -8,11 +9,19 @@ const formatNumber = (num) => {
 };
 
 const AppCard = ({ app }) => {
-  const { image, title, downloads, ratingAvg } = app;
+  const { id, image, title, downloads, ratingAvg } = app;
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`/app/${id}`); 
+  };
 
   return (
-    <div className="card bg-base-100 shadow-sm hover:scale-105 transition ease-in-out p-5">
-      
+    <div
+      onClick={handleClick}
+      className="card bg-base-100 shadow-sm hover:scale-105 transition ease-in-out p-5 cursor-pointer"
+    >
+      {/* Image */}
       <figure className="w-full h-48 bg-gray-200 rounded-t-xl overflow-hidden flex items-center justify-center">
         {image ? (
           <img src={image} alt={title} className="w-full h-full object-cover" />
@@ -21,13 +30,12 @@ const AppCard = ({ app }) => {
         )}
       </figure>
 
-   
+      {/* Card Body */}
       <div className="card-body p-4">
         <h2 className="text-base font-semibold text-gray-800 truncate">
           {title}
         </h2>
 
-      
         <div className="flex justify-between items-center mt-4">
           {/* Downloads */}
           <div className="flex items-center gap-2">

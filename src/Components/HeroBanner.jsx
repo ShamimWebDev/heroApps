@@ -16,14 +16,26 @@ const HeroBanner = () => {
         </p>
 
         <div className="flex justify-center gap-4 mb-12">
-          <button className="flex items-center gap-2 border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100 transition">
-            <img src="/google.PNG" alt="Google Play" className="h-6" />
-            <span className="font-medium text-gray-800">Google Play</span>
-          </button>
-          <button className="flex items-center gap-2 border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100 transition">
-            <img src="/app.PNG" alt="App Store" className="h-6" />
-            <span className="font-medium text-gray-800">App Store</span>
-          </button>
+          <a
+            href="https://play.google.com/store/games?hl=en"
+            target="_blank"
+            rel=""
+          >
+            <button className="flex items-center gap-2 border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100 transition">
+              <img src="/google.PNG" alt="Google Play" className="h-6" />
+              <span className="font-medium text-gray-800">Google Play</span>
+            </button>
+          </a>
+          <a
+            href="https://www.apple.com/store"
+            target="_blank"
+            rel=""
+          >
+            <button className="flex items-center gap-2 border border-gray-300 rounded-lg px-4 py-2 hover:bg-gray-100 transition">
+              <img src="/app.PNG" alt="App Store" className="h-6" />
+              <span className="font-medium text-gray-800">App Store</span>
+            </button>
+          </a>
         </div>
 
         <div className="flex justify-center">

@@ -18,7 +18,10 @@ const TrendingApps = () => {
   return (
     <div className="max-w-7xl mx-auto px-5 py-10">
       <div className="text-center mb-10">
-        <h2 className="text-3xl font-bold text-gray-800 mb-2">Trending Apps</h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-2">
+          Trending Apps{" "}
+          <i className="fa-solid fa-arrow-trend-up text-[#773FE8]"></i>
+        </h2>
         <p className="text-gray-500">
           Explore the most downloaded and top-rated apps this week.
         </p>
